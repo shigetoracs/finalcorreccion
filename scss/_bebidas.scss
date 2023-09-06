@@ -1,0 +1,45 @@
+/* bebidas*/
+
+.bebidas {
+    background-color: #333;
+    display: flex;
+    padding: 60px;
+    gap: 10%;
+    justify-content: center;
+  }
+  .conteiner{
+    display: flex;
+  }
+  .bebida {
+    background-color: rgb(11, 17, 99);
+    max-width: 50%;
+    border-radius: 40px;
+    display: flex;
+    flex : 1;
+    flex-direction: flex-start;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  
+  .bebida_boton:hover {
+    background-color: rgba(71, 71, 99, 0.644);
+    transform: scale(1.3);
+  }
+  
+  .monstervendido {
+    flex: 0 0 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .texto {
+    flex: 1;
+    padding-inline: 30px;
+    color: antiquewhite;
+    text-align: center;
+  }
+  
+  .bebida_titulo {
+    color: rgb(94, 101, 189);
+    font-size: larger;
+  }

@@ -1,0 +1,27 @@
+.tarjetitas {
+    background-color: aquamarine;
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+   
+    
+
+}
+
+.tarjetita {
+    background-color: aqua;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+
+}
+.informacion {
+    padding: 0 20px 20px 20px;
+}
+
+.tarjetita__imagen {
+    max-width: 100%;
+}

@@ -1,0 +1,30 @@
+
+
+.container-fluid {
+    background-color:$color-principal4;
+    .kipmagen {
+        width: 70px;
+    }
+   .nav-item {
+   -webkit-animation:rotate-center .6s ease-in-out both;animation:rotate-center .6s ease-in-out both;
+   margin: 5px;
+
+    }
+
+    @for $item from 1 through 5 {
+        .nav-item#{$item} {
+            animation-delay: $item*150ms;
+            background-color: pink;
+        }
+    }
+  
+    .nav-item:hover {
+        transform: scale(1.2);
+        transform: bold;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+  
+    
+}
+@-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
